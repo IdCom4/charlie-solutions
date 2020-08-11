@@ -12,9 +12,6 @@ class Charlie_materials_filiale extends Model
      * @var array
      */
     protected $fillable = [
-        'id_mat',
-        'identification',
-        'serial_number',
         'region',
         'id_chantier',
         'id_zone_stockage',
