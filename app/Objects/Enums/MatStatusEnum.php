@@ -10,6 +10,7 @@ abstract class MatStatusEnum {
     const _HS = "HS";
     const _HS_R_W = "HS/RETOUR ATELIER";
     const _WORKSHOP = "ATELIER";
+    const _TO_CTRL = "A CONTROLER";
     const _LOST = "PERDU";
     const _STOLEN = "VOLE";
     const _TO_FIX = "A REPARER";
@@ -31,7 +32,8 @@ abstract class MatStatusEnum {
         MatStatusEnum::_MISS_1_P,
         MatStatusEnum::_MISS,
         MatStatusEnum::_MISSING,
-        MatStatusEnum::_WORKSHOP
+        MatStatusEnum::_WORKSHOP,
+        MatStatusEnum::_TO_CTRL
     ];
 }
 
