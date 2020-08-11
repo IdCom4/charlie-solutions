@@ -1,0 +1,24 @@
+`id` int(11) NOT NULL,                          //id de lentrée
+  `id_mat` varchar(255) DEFAULT NULL,           //id du type de materiel
+  `identification` varchar(255) DEFAULT NULL,   //id de cet exemplaire précis
+  `serial_number` varchar(255) DEFAULT NULL,
+  `region` varchar(255) DEFAULT NULL,
+  `id_chantier` int(11) DEFAULT NULL,
+  `id_zone_stockage` int(11) DEFAULT NULL,
+  `site` varchar(255) DEFAULT NULL,
+  `id_site` varchar(255) DEFAULT NULL,
+  `back_shed` date DEFAULT NULL,
+  `in_control` date DEFAULT NULL,
+  `outControl` date DEFAULT NULL,
+  `inControl_cp` varchar(255) DEFAULT NULL,
+  `outControl_cp` varchar(255) DEFAULT NULL,
+  `observation` varchar(255) DEFAULT NULL,
+  `use_rate` varchar(255) DEFAULT NULL,
+  `lost` varchar(255) DEFAULT NULL,
+  `price` varchar(255) DEFAULT NULL,
+  `status` varchar(255) DEFAULT NULL,
+  `control_place` varchar(255) DEFAULT NULL,
+  `id_affiliate` varchar(255) DEFAULT NULL,
+  `completed` varchar(255) DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
