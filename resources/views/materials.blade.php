@@ -5,6 +5,10 @@ use Illuminate\Support\Facades\Session;
 
 @extends('layout')
 
+@section('css')
+  <link rel="stylesheet" href="{{ asset('css/materials.css') }}"></script>
+@endsection
+
 @section('scripts')
   <script rel="text/javascript" src="{{ asset('js/materials.js') }}"></script>
 @endsection
@@ -138,7 +142,7 @@ use Illuminate\Support\Facades\Session;
             <td>{{ $lightMaterial->status }}</td>
             <td class="position-relative">
               <a href="edit?{{ FormFieldsEnum::_FILIALE }}={{ $_FILIALE_select }}&{{ MatFieldsEnum::_DEFAULT }}={{ $lightMaterial->id }}">
-                <img src="{{ asset('imgs/modify.png') }}" alt="modify" class="position-absolute h-50">
+                <img src="{{ asset('imgs/modify.png') }}" alt="modify" class="position-absolute w-50">
               </a>
             </td>
         </tr>
